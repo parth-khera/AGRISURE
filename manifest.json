@@ -1,0 +1,56 @@
+{
+  "short_name": "AgriSure",
+  "name": "AgriSure - Smart Farming Platform",
+  "description": "AI-powered agricultural platform for Indian farmers with weather intelligence, crop recommendations, and blockchain transactions",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#22C55E",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "categories": ["business", "productivity", "utilities"],
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Weather Intelligence",
+      "short_name": "Weather",
+      "description": "Check weather conditions and forecasts",
+      "url": "/dashboard/weather-intelligence",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Crop Recommendations",
+      "short_name": "Crops",
+      "description": "Get AI-powered crop recommendations",
+      "url": "/dashboard/crop-recommendations",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "AgriForum",
+      "short_name": "Forum",
+      "description": "Connect with other farmers",
+      "url": "/dashboard/agri-forum",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    }
+  ]
+}

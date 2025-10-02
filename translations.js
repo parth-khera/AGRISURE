@@ -1,0 +1,528 @@
+export const translations = {
+  en: {
+    // Navigation
+    dashboard: 'Dashboard',
+    cropRecommendations: 'Crop Recommendations',
+    weatherIntelligence: 'Weather Intelligence',
+    yieldPredictions: 'Yield Predictions',
+    fairPriceInsights: 'Fair Price Insights',
+    blockchainTransactions: 'Blockchain Transactions',
+    surplusManagement: 'Surplus Management',
+    history: 'History',
+    agriForum: 'AgriForum',
+    settings: 'Settings',
+
+    // Common
+    welcome: 'Welcome back,',
+    farmer: 'Farmer',
+    loading: 'Loading...',
+    error: 'Error',
+    success: 'Success',
+    save: 'Save',
+    cancel: 'Cancel',
+    submit: 'Submit',
+    search: 'Search',
+    filter: 'Filter',
+    select: 'Select',
+    location: 'Location',
+    temperature: 'Temperature',
+    humidity: 'Humidity',
+    rainfall: 'Rainfall',
+    windSpeed: 'Wind Speed',
+
+    // Weather
+    currentConditions: 'Current Conditions',
+    dayForecast: '5-Day Forecast',
+    aiRiskAssessment: 'AI Risk Assessment',
+    activeRiskAlerts: 'Active Risk Alerts',
+    regionalAgriculturalContext: 'Regional Agricultural Context',
+    typicalCrops: 'Typical Crops',
+    soilTypes: 'Soil Types',
+
+    // Crops
+    cropRecommendationsTitle: 'AI Crop Recommendations',
+    farmConditions: 'Farm Conditions',
+    soilType: 'Soil Type',
+    region: 'Region',
+    season: 'Season',
+    state: 'State',
+    expectedYield: 'Expected Yield',
+    roi: 'ROI',
+    plantingWindow: 'Planting Window',
+    duration: 'Duration',
+    irrigation: 'Irrigation',
+    marketPrice: 'Market Price',
+    selectThisCrop: 'Select This Crop',
+    whyGrowThis: 'Why Grow This',
+    risks: 'Risks',
+    nutritionalValue: 'Nutritional Value',
+    fertilizerRequirements: 'Fertilizer Requirements',
+
+    // Seasons
+    kharif: 'Kharif (Monsoon)',
+    rabi: 'Rabi (Winter)',
+    zaid: 'Zaid (Summer)',
+
+    // Soil Types
+    alluvial: 'Alluvial',
+    blackCotton: 'Black Cotton',
+    red: 'Red',
+    lateritic: 'Lateritic',
+    desert: 'Desert',
+    mountain: 'Mountain',
+    saline: 'Saline',
+
+    // Regions
+    northIndia: 'North India',
+    southIndia: 'South India',
+    westIndia: 'West India',
+    eastIndia: 'East India',
+    centralIndia: 'Central India',
+    northeastIndia: 'Northeast India',
+    northwestIndia: 'Northwest India',
+
+    // Auth
+    signIn: 'Sign In',
+    signUp: 'Sign Up',
+    email: 'Email',
+    password: 'Password',
+    confirmPassword: 'Confirm Password',
+    fullName: 'Full Name',
+    farmSize: 'Farm Size',
+    loginToDashboard: 'Sign in to your farmer dashboard',
+    createAccount: 'Create your farmer account',
+    dontHaveAccount: "Don't have an account?",
+    alreadyHaveAccount: 'Already have an account?',
+
+    // History
+    activityHistory: 'Activity History',
+    trackActivities: 'Track your farming activities and transactions',
+    allActivities: 'All Activities',
+    transactions: 'Transactions',
+    forumPosts: 'Forum Posts',
+  },
+
+  hi: {
+    // Navigation
+    dashboard: 'डैशबोर्ड',
+    cropRecommendations: 'फसल सिफारिशें',
+    weatherIntelligence: 'मौसम खुफिया',
+    yieldPredictions: 'उपज भविष्यवाणी',
+    fairPriceInsights: 'निष्पक्ष मूल्य अंतर्दृष्टि',
+    blockchainTransactions: 'ब्लॉकचेन लेनदेन',
+    surplusManagement: 'अतिरिक्त प्रबंधन',
+    history: 'इतिहास',
+    agriForum: 'कृषि मंच',
+    settings: 'सेटिंग्स',
+
+    // Common
+    welcome: 'स्वागत',
+    farmer: 'किसान',
+    loading: 'लोड हो रहा है...',
+    error: 'त्रुटि',
+    success: 'सफलता',
+    save: 'सहेजें',
+    cancel: 'रद्द करें',
+    submit: 'सबमिट करें',
+    search: 'खोजें',
+    filter: 'फिल्टर',
+    select: 'चुनें',
+    location: 'स्थान',
+    temperature: 'तापमान',
+    humidity: 'नमी',
+    rainfall: 'वर्षा',
+    windSpeed: 'हवा की गति',
+
+    // Weather
+    currentConditions: 'वर्तमान स्थितियां',
+    dayForecast: '5-दिन का पूर्वानुमान',
+    aiRiskAssessment: 'एआई जोखिम मूल्यांकन',
+    activeRiskAlerts: 'सक्रिय जोखिम अलर्ट',
+    regionalAgriculturalContext: 'क्षेत्रीय कृषि संदर्भ',
+    typicalCrops: 'सामान्य फसलें',
+    soilTypes: 'मिट्टी के प्रकार',
+
+    // Crops
+    cropRecommendationsTitle: 'एआई फसल सिफारिशें',
+    farmConditions: 'खेत की स्थितियां',
+    soilType: 'मिट्टी का प्रकार',
+    region: 'क्षेत्र',
+    season: 'मौसम',
+    state: 'राज्य',
+    expectedYield: 'अपेक्षित उपज',
+    roi: 'आरओआई',
+    plantingWindow: 'बुआई की अवधि',
+    duration: 'अवधि',
+    irrigation: 'सिंचाई',
+    marketPrice: 'बाजार मूल्य',
+    selectThisCrop: 'यह फसल चुनें',
+    whyGrowThis: 'क्यों उगाएं यह',
+    risks: 'जोखिम',
+    nutritionalValue: 'पोषण मूल्य',
+    fertilizerRequirements: 'उर्वरक आवश्यकताएं',
+
+    // Seasons
+    kharif: 'खरीफ (मानसून)',
+    rabi: 'रबी (सर्दी)',
+    zaid: 'जायद (गर्मी)',
+
+    // Soil Types
+    alluvial: 'जलोढ़',
+    blackCotton: 'काली कपासी',
+    red: 'लाल',
+    lateritic: 'लेटराइट',
+    desert: 'रेगिस्तानी',
+    mountain: 'पर्वतीय',
+    saline: 'खारी',
+
+    // Regions
+    northIndia: 'उत्तरी भारत',
+    southIndia: 'दक्षिणी भारत',
+    westIndia: 'पश्चिमी भारत',
+    eastIndia: 'पूर्वी भारत',
+    centralIndia: 'मध्य भारत',
+    northeastIndia: 'उत्तर-पूर्वी भारत',
+    northwestIndia: 'उत्तर-पश्चिमी भारत',
+
+    // Auth
+    signIn: 'साइन इन करें',
+    signUp: 'साइन अप करें',
+    email: 'ईमेल',
+    password: 'पासवर्ड',
+    confirmPassword: 'पासवर्ड की पुष्टि करें',
+    fullName: 'पूरा नाम',
+    farmSize: 'खेत का आकार',
+    loginToDashboard: 'अपने किसान डैशबोर्ड में साइन इन करें',
+    createAccount: 'अपना किसान खाता बनाएं',
+    dontHaveAccount: 'खाता नहीं है?',
+    alreadyHaveAccount: 'पहले से खाता है?',
+
+    // History
+    activityHistory: 'गतिविधि इतिहास',
+    trackActivities: 'अपनी कृषि गतिविधियों और लेनदेन को ट्रैक करें',
+    allActivities: 'सभी गतिविधियां',
+    transactions: 'लेनदेन',
+    forumPosts: 'मंच पोस्ट',
+  },
+
+  ta: {
+    // Navigation
+    dashboard: 'டாஷ்போர்டு',
+    cropRecommendations: 'பயிர் பரிந்துரைகள்',
+    weatherIntelligence: 'வானிலை புலனாய்வு',
+    yieldPredictions: 'விளைச்சல் கணிப்புகள்',
+    fairPriceInsights: 'நியாயமான விலை நுண்ணறிவு',
+    blockchainTransactions: 'பிளாக்செயின் பரிவர்த்தனைகள்',
+    surplusManagement: 'உபரி மேலாண்மை',
+    history: 'வரலாறு',
+    agriForum: 'விவசாய மன்றம்',
+    settings: 'அமைப்புகள்',
+
+    // Common
+    welcome: 'வரவேற்பு',
+    farmer: 'விவசாயி',
+    loading: 'ஏற்றப்படுகிறது...',
+    error: 'பிழை',
+    success: 'வெற்றி',
+    save: 'சேமிக்க',
+    cancel: 'ரத்து செய்',
+    submit: 'சமர்ப்பிக்க',
+    search: 'தேடு',
+    filter: 'வடிகட்டு',
+    select: 'தேர்ந்தெடு',
+    location: 'இடம்',
+    temperature: 'வெப்பநிலை',
+    humidity: 'ஈரப்பதம்',
+    rainfall: 'மழை',
+    windSpeed: 'காற்று விரைவு',
+
+    // Weather
+    currentConditions: 'தற்போதைய நிலவரங்கள்',
+    dayForecast: '5-நாள் முன்னறிவிப்பு',
+    aiRiskAssessment: 'AI ஆபத்து மதிப்பீடு',
+    activeRiskAlerts: 'செயலில் உள்ள ஆபத்து எச்சரிக்கைகள்',
+    regionalAgriculturalContext: 'பிராந்திய விவசாய சூழல்',
+    typicalCrops: 'வழக்கமான பயிர்கள்',
+    soilTypes: 'மண் வகைகள்',
+
+    // Crops
+    cropRecommendationsTitle: 'AI பயிர் பரிந்துரைகள்',
+    farmConditions: 'பண்ணை நிலவரங்கள்',
+    soilType: 'மண் வகை',
+    region: 'பிராந்தியம்',
+    season: 'பருவம்',
+    state: 'மாநிலம்',
+    expectedYield: 'எதிர்பார்க்கப்படும் விளைச்சல்',
+    roi: 'திரும்ப வரவு',
+    plantingWindow: 'நடவு காலம்',
+    duration: 'கால அளவு',
+    irrigation: 'நீர்ப்பாசனம்',
+    marketPrice: 'சந்தை விலை',
+    selectThisCrop: 'இந்த பயிரை தேர்ந்தெடு',
+    whyGrowThis: 'ஏன் இதை வளர்க்க வேண்டும்',
+    risks: 'ஆபத்துகள்',
+    nutritionalValue: 'ஊட்டச்சத்து மதிப்பு',
+    fertilizerRequirements: 'உர மற்றும் பொருள் தேவைகள்',
+
+    // Seasons
+    kharif: 'கரிஃப் (பருவ மழை)',
+    rabi: 'ராபி (குளிர்காலம்)',
+    zaid: 'ஜைத் (வசந்த காலம்)',
+
+    // Soil Types
+    alluvial: 'அல்லுவியல்',
+    blackCotton: 'கருப்பு பருத்தி',
+    red: 'சிவப்பு',
+    lateritic: 'லேட்டரிடிக்',
+    desert: 'பாலைவனம்',
+    mountain: 'மலை',
+    saline: 'உப்பு',
+
+    // Regions
+    northIndia: 'வடக்கு இந்தியா',
+    southIndia: 'தெற்கு இந்தியா',
+    westIndia: 'மேற்கு இந்தியா',
+    eastIndia: 'கிழக்கு இந்தியா',
+    centralIndia: 'மத்திய இந்தியா',
+    northeastIndia: 'வடகிழக்கு இந்தியா',
+    northwestIndia: 'வடக்கு மேற்கு இந்தியா',
+
+    // Auth
+    signIn: 'உள்நுழை',
+    signUp: 'பதிவு செய்',
+    email: 'மின்னஞ்சல்',
+    password: 'கடவுச்சொல்',
+    confirmPassword: 'கடவுச்சொல்லை உறுதிப்படுத்து',
+    fullName: 'முழு பெயர்',
+    farmSize: 'பண்ணை அளவு',
+    loginToDashboard: 'உங்கள் விவசாயி டாஷ்போர்டில் உள்நுழையவும்',
+    createAccount: 'உங்கள் விவசாயி கணக்கை உருவாக்கவும்',
+    dontHaveAccount: 'கணக்கு இல்லையா?',
+    alreadyHaveAccount: 'ஏற்கனவே கணக்கு உள்ளதா?',
+
+    // History
+    activityHistory: 'செயல்பாட்டு வரலாறு',
+    trackActivities: 'உங்கள் விவசாய செயல்பாடுகள் மற்றும் பரிவர்த்தனைகளை கண்காணிக்கவும்',
+    allActivities: 'அனைத்து செயல்பாடுகளும்',
+    transactions: 'பரிவர்த்தனைகள்',
+    forumPosts: 'மன்ற இடுகைகள்',
+  },
+
+  te: {
+    // Navigation
+    dashboard: 'డాష్బోర్డ్',
+    cropRecommendations: 'పంట సిఫార్సులు',
+    weatherIntelligence: 'వాతావరణ సమాచారం',
+    yieldPredictions: 'విళాస భవిష్యవాణులు',
+    fairPriceInsights: 'న్యాయమైన ధర అంతర్దృష్టులు',
+    blockchainTransactions: 'బ్లాక్‌చైన్ లావాదేవీలు',
+    surplusManagement: 'అదనపు నిర్వహణ',
+    history: 'చరిత్ర',
+    agriForum: 'వ్యవసాయ ఫోరమ్',
+    settings: 'సెట్టింగులు',
+
+    // Common
+    welcome: 'స్వాగతం',
+    farmer: 'రైతు',
+    loading: 'లోడ్ అవుతోంది...',
+    error: 'లోపం',
+    success: 'విజయం',
+    save: 'సేవ్ చేయండి',
+    cancel: 'రద్దు చేయండి',
+    submit: 'సమర్పించు',
+    search: 'వెతకండి',
+    filter: 'ఫిల్టర్',
+    select: 'ఎంచుకోండి',
+    location: 'స్థానం',
+    temperature: 'ఉష్ణోగ్రత',
+    humidity: 'తేమ',
+    rainfall: 'వర్షం',
+    windSpeed: 'గాలి వేగం',
+
+    // Weather
+    currentConditions: 'ప్రస్తుత పరిస్థితులు',
+    dayForecast: '5-రోజుల అంచనా',
+    aiRiskAssessment: 'AI రిస్క్ అంచనా',
+    activeRiskAlerts: 'సక్రియ రిస్క్ అలర్ట్‌లు',
+    regionalAgriculturalContext: 'ప్రాంతీయ వ్యవసాయ సందర్భం',
+    typicalCrops: 'సాధారణ పంటలు',
+    soilTypes: 'మట్టి రకాలు',
+
+    // Crops
+    cropRecommendationsTitle: 'AI పంట సిఫార్సులు',
+    farmConditions: 'పొలం పరిస్థితులు',
+    soilType: 'మట్టి రకం',
+    region: 'ప్రాంతం',
+    season: 'కాలం',
+    state: 'రాష్ట్రం',
+    expectedYield: 'అంచనా విళాసం',
+    roi: 'రాయిటీ',
+    plantingWindow: 'పంట వేయు విండో',
+    duration: 'వ్యవధి',
+    irrigation: 'నీటిపారుదల',
+    marketPrice: 'మార్కెట్ ధర',
+    selectThisCrop: 'ఈ పంటను ఎంచుకోండి',
+    whyGrowThis: 'దీన్ని ఎందుకు పెంచాలి',
+    risks: 'రిస్కులు',
+    nutritionalValue: 'పోషక విలువ',
+    fertilizerRequirements: 'ఎరువుల అవసరాలు',
+
+    // Seasons
+    kharif: 'ఖరీఫ్ (వర్షాకాలం)',
+    rabi: 'రబీ (శీతాకాలం)',
+    zaid: 'జైద్ (వేసవి)',
+
+    // Soil Types
+    alluvial: 'అల్యూవియల్',
+    blackCotton: 'నల్ల పత్తి',
+    red: 'ఎరుపు',
+    lateritic: 'లేటరిటిక్',
+    desert: 'మరుభూమి',
+    mountain: 'పర్వతం',
+    saline: 'లవణ',
+
+    // Regions
+    northIndia: 'ఉత్తర భారతదేశం',
+    southIndia: 'దక్షిణ భారతదేశం',
+    westIndia: 'పశ్చిమ భారతదేశం',
+    eastIndia: 'తూర్పు భారతదేశం',
+    centralIndia: 'మధ్య భారతదేశం',
+    northeastIndia: 'ఉత్తరపూర్వ భారతదేశం',
+    northwestIndia: 'ఉత్తరపశ్చిమ భారతదేశం',
+
+    // Auth
+    signIn: 'సైన్ ఇన్ చేయండి',
+    signUp: 'సైన్ అప్ చేయండి',
+    email: 'ఇమెయిల్',
+    password: 'పాస్‌వర్డ్',
+    confirmPassword: 'పాస్‌వర్డ్ నిర్ధారించండి',
+    fullName: 'పూర్తి పేరు',
+    farmSize: 'పొలం పరిమాణం',
+    loginToDashboard: 'మీ రైతు డాష్బోర్డ్‌లోకి సైన్ ఇన్ చేయండి',
+    createAccount: 'మీ రైతు ఖాతాను సృష్టించండి',
+    dontHaveAccount: 'ఖాతా లేదా?',
+    alreadyHaveAccount: 'ఇప్పటికే ఖాతా ఉందా?',
+
+    // History
+    activityHistory: 'కార్యాచరణ చరిత్ర',
+    trackActivities: 'మీ వ్యవసాయ కార్యాచరణలు మరియు లావాదేవీలను ట్రాక్ చేయండి',
+    allActivities: 'అన్ని కార్యాచరణలు',
+    transactions: 'లావాదేవీలు',
+    forumPosts: 'ఫోరమ్ పోస్ట్‌లు',
+  },
+
+  mr: {
+    // Navigation
+    dashboard: 'डॅशबोर्ड',
+    cropRecommendations: 'पीक शिफारसी',
+    weatherIntelligence: 'हवामान बुद्धिमत्ता',
+    yieldPredictions: 'उत्पादन अंदाज',
+    fairPriceInsights: 'न्याय्य किंमत माहिती',
+    blockchainTransactions: 'ब्लॉकचेन व्यवहार',
+    surplusManagement: 'जादा व्यवस्थापन',
+    history: 'इतिहास',
+    agriForum: 'कृषी मंच',
+    settings: 'सेटिंग्ज',
+
+    // Common
+    welcome: 'स्वागत',
+    farmer: 'शेतकरी',
+    loading: 'लोड होत आहे...',
+    error: 'त्रुटी',
+    success: 'यश',
+    save: 'जतन करा',
+    cancel: 'रद्द करा',
+    submit: 'सबमिट करा',
+    search: 'शोधा',
+    filter: 'फिल्टर',
+    select: 'निवडा',
+    location: 'स्थान',
+    temperature: 'तापमान',
+    humidity: 'आर्द्रता',
+    rainfall: 'पाऊस',
+    windSpeed: 'वाऱ्याची गती',
+
+    // Weather
+    currentConditions: 'सध्याच्या परिस्थिती',
+    dayForecast: '5-दिवसांचा अंदाज',
+    aiRiskAssessment: 'AI जोखीम मूल्यांकन',
+    activeRiskAlerts: 'सक्रिय जोखीम सूचना',
+    regionalAgriculturalContext: 'प्रादेशिक कृषी संदर्भ',
+    typicalCrops: 'सामान्य पिके',
+    soilTypes: 'मातीचे प्रकार',
+
+    // Crops
+    cropRecommendationsTitle: 'AI पीक शिफारसी',
+    farmConditions: 'शेत परिस्थिती',
+    soilType: 'मातीचा प्रकार',
+    region: 'प्रदेश',
+    season: 'हंगाम',
+    state: 'राज्य',
+    expectedYield: 'अपेक्षित उत्पादन',
+    roi: 'ROI',
+    plantingWindow: 'लागवडीचे खिडकी',
+    duration: 'कालावधी',
+    irrigation: 'सिंचन',
+    marketPrice: 'बाजारभाव',
+    selectThisCrop: 'हे पीक निवडा',
+    whyGrowThis: 'हे का वाढवावे',
+    risks: 'जोखीम',
+    nutritionalValue: 'पोषण मूल्य',
+    fertilizerRequirements: 'खते गरजा',
+
+    // Seasons
+    kharif: 'खरीप (पावसाळा)',
+    rabi: 'रबी (हिवाळा)',
+    zaid: 'जायद (उन्हाळा)',
+
+    // Soil Types
+    alluvial: 'जलोढ',
+    blackCotton: 'काळी कापूस',
+    red: 'लाल',
+    lateritic: 'लेटराइट',
+    desert: 'वाळवंटी',
+    mountain: 'डोंगराळ',
+    saline: 'खारट',
+
+    // Regions
+    northIndia: 'उत्तरी भारत',
+    southIndia: 'दक्षिण भारत',
+    westIndia: 'पश्चिम भारत',
+    eastIndia: 'पूर्व भारत',
+    centralIndia: 'मध्य भारत',
+    northeastIndia: 'उत्तरपूर्व भारत',
+    northwestIndia: 'उत्तरपश्चिम भारत',
+
+    // Auth
+    signIn: 'साइन इन करा',
+    signUp: 'साइन अप करा',
+    email: 'ईमेल',
+    password: 'पासवर्ड',
+    confirmPassword: 'पासवर्डची पुष्टी करा',
+    fullName: 'पूर्ण नाव',
+    farmSize: 'शेताचा आकार',
+    loginToDashboard: 'तुमच्या शेतकरी डॅशबोर्डमध्ये साइन इन करा',
+    createAccount: 'तुमचा शेतकरी खाता तयार करा',
+    dontHaveAccount: 'खाता नाही?',
+    alreadyHaveAccount: 'आधीपासून खाता आहे?',
+
+    // History
+    activityHistory: 'क्रियाकलाप इतिहास',
+    trackActivities: 'तुमच्या कृषी क्रियाकलाप आणि व्यवहारांचे अनुसरण करा',
+    allActivities: 'सर्व क्रियाकलाप',
+    transactions: 'व्यवहार',
+    forumPosts: 'मंच पोस्ट',
+  }
+};
+
+export const getTranslation = (key, language = 'en') => {
+  return translations[language]?.[key] || translations.en[key] || key;
+};
+
+export const supportedLanguages = [
+  { code: 'en', name: 'English', nativeName: 'English' },
+  { code: 'hi', name: 'Hindi', nativeName: 'हिंदी' },
+  { code: 'ta', name: 'Tamil', nativeName: 'தமிழ்' },
+  { code: 'te', name: 'Telugu', nativeName: 'తెలుగు' },
+  { code: 'mr', name: 'Marathi', nativeName: 'मराठी' },
+];
